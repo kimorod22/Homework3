@@ -1,0 +1,60 @@
+body{
+    font-family: "Times New Roman","DFKai-sb";
+    font-size: 14pt;
+    background-color: teal;
+    line-height: 25pt;
+    color: white;
+    padding: 80px 200px;
+}
+
+
+p:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.author{
+    font-size: 70%;
+    color :lightgray;
+}
+
+.hl{
+    font-weight:bold;
+    color: red;
+}
+
+.mark{
+    font-style:italic;
+}
+
+.remark{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 70%;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+button{
+    width: 100pt;
+    height: 20pt;
+}
+
+.toTopButton{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    color: black;
+    font-size: 170%;
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 150%;
+}

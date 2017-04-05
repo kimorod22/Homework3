@@ -1,69 +1,38 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML SYSTEM>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Welcome to Firebase Hosting</title>
-    <style media="screen">
-      body {
-        font-family: Roboto, Arial, sans-serif;
-        background: #ECEFF1;
-        color: rgba(0,0,0,0.87);
-      }
-
-      a {
-        color: rgb(3,155,229);
-      }
-
-      #message {
-        max-width: 400px;
-        margin: 40px auto;
-        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
-        border-radius: 2px;
-        background: white;
-        padding: 16px 24px;
-      }
-
-      #message h1 {
-        font-size: 22px;
-        font-weight: 500;
-        text-align: center;
-        margin: 0 0 16px;
-      }
-
-      #message p {
-        font-weight: 300;
-        line-height: 150%;
-      }
-
-      #message ul {
-        list-style: none;
-        margin: 16px 0 0;
-        padding: 0;
-        text-align: center;
-      }
-
-      #message li a {
-        display: inline-block;
-        padding: 8px;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: 500;
-        background: rgb(3,155,229);
-        color: white;
-        border: 1px solid rgb(3,155,229);
-        border-radius: 3px;
-        font-size: 14px;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h1>Welcome to Firebase Hosting</h1>
-      <p>test</p>
-      <ul>
-        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
-      </ul>
-    </div>
-  </body>
+    <head>
+        <title>HW2</title>
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body id = "sizeChange">
+        <h1>App Annie 公布 2016 年世界營業額 TOP 52 手機應用程式發行商</h1>
+        <p class = "author">（GNN 記者 犬拓 報導） 2017-03-15 12:30:28</p><br>
+        <button onclick="toLarge()">Large</button>
+        <button onclick="toMedium()">Medium</button>
+        <button onclick="toSmall()">Small</button>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;數據分析網站 App Annie 於近日正式公布了 2016 年度全球手機應用程式熱門發行商。行之有年的「TOP 52 」是專門用於表彰 iOS 和 Google Play 商店營收排行榜上的頂尖發行商。App Annie 會將入選廠商的商標以及名稱配置到 52 種撲克牌花色上，製作出實際可供遊玩的撲克牌，在國際展覽活動上發放給攤位來訪者。<br><br>
+           &nbsp;&nbsp;&nbsp;&nbsp;App Annie 52 強榜單由 2016 年 1 月 1 日至 12 月 31 日（含此日）iOS 與 Google Play 綜合收入排行榜上的 52 位優勝者構成。收入排名的依據是從 iOS 應用商店與 Google Play 商店的付費下載及內購獲得的收入。不包括透過廣告或商店渠道之外的訂閱獲得的收入。<br><br>
+           &nbsp;&nbsp;&nbsp;&nbsp;該榜單今年的排名出現了一些重大變動，並且有幾家發行商是初次登榜。完整榜單如下所示：</p>
+        <img src = "app rank.jpg" alt="rank">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;2016 年度，營收名列世界第 1 的廠商由中國的<span class="hl">騰訊（Tencent）</span>奪下，身為前年及去年冠軍的 Supercell 今年屈居第 2，獲得第 3 名的則是中國的網易（NetEase）。雖然此一榜單的統計來源並不僅限於遊戲類的應用程式，然而遊戲毫無疑問地為這些名列前茅的廠商提供了鉅額的收入。<br><br>
+           &nbsp;&nbsp;&nbsp;&nbsp;根據 2016 年的榜單，App Annie 原文中也指出了幾項趨勢：</p>
+        <h2>前 10 名大幅變動</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;從過往經驗來看，每年榜單上的前 10 名基本上都很少變動，但今年是個例外，有 3 家發行商首次進入前 10 名之列。此外，今年的排名也出現了一些變化，與 2015 年相比，騰訊的排名從第 6 躍居第 1，網易的排名則從第 9 升至第 3。值得注意的是，<span class = "hl">Niantic</span> 憑著「精靈寶可夢」衍生遊戲<span class="mark">《Pokemon GO（Pokémon GO）》</span>所取得的破紀錄的成功，闖入了 52 強榜單。</p>
+        <h2>美國和日本領先群雄</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;亞太地區的發行商每年都占據著 52 強榜單中的大半壁江山，今年也不例外，其中有 30 強都來自於這一地區。然而，在國家 / 地區細分中，<span class="hl">美國和日本</span>則明顯占據優勢，世界上一些最有影響力的發行商都來自這兩個國家。</p>
+        <img src = "geo.jpg" alt="geo">
+        <h2>中國開發商表現突出</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;今年，App Annie 簡體中文網站也首度公布了中國出海全球十大公司榜單。此榜單按照「中國大陸地區之外」的 iOS 應用商店以及 Google Play 綜合收入，對來自中國大陸的行動應用程式發行商進行了排名。此次上榜的 10 家公司也不出意外的由遊戲發行商所包攬。</p>
+        <h2>延伸閱讀：</h2>
+        <ul>
+            <li><a href="https://gnn.gamer.com.tw/2/144612.html">2016 年世界營業額 TOP 52 手機應用程式發行商(原文連結)</a></li>
+            <li><a href="https://gnn.gamer.com.tw/0/128480.html">2015 年世界營業額 TOP 52 手機應用程式發行商</a></li>
+            <li><a href="https://gnn.gamer.com.tw/7/111647.html">2014 年世界營業額 TOP 52 手機應用程式發行商</a></li>
+            <li><a href="https://gnn.gamer.com.tw/5/98745.html">2013 年手機應用程式發行商營業額 TOP 52</a></li>
+        </ul>
+        <button class = "toTopButton" onclick="toTop()">回頂端</button>
+        <br><br>
+        <p class = "remark">文章出處：巴哈姆特電玩資訊站GNN新聞</p>
+        <script src="index.js"></script>
+    </body>
 </html>
